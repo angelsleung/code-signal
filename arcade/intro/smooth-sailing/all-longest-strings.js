@@ -1,6 +1,6 @@
 function allLongestStrings(inputArray) {
   let maxLength = 0;
-  const newArray = [];
+  let newArray = [];
   for (let i = 0; i < inputArray.length; i++) {
     if (inputArray[i].length > maxLength) {
       maxLength = inputArray[i].length;
